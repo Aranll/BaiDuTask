@@ -10,6 +10,8 @@ body{ background: #DEDEDE; }
 .nav li{float: left; margin:10px;}
 .nav a{ color: #ffffff;}
 aside{font-weight: 700; font-size: 18px;}
+.article:after{content: "";display: block;clear: both;}
+.article div:nth-child(n){ float: left; margin-left: 20px;}
 .article1_img{width:140px; margin:0 auto; }
 .article_table{width: 100%; border-collapse:collapse; border: 1px solid #CCCCCC;}
 .article_table thead{background: #333333; color: #ffffff;}
