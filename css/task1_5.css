@@ -3,7 +3,7 @@ html,body,header,h1,h2{margin: 0px; padding: 0px;}
 ul{list-style:none;}
 /* task_1_2 css */
 body{ background: #DEDEDE; }
-.header{height: 70px; width: 100%; background: #333333;}
+.header{height: 70px; width: 100%; background: #333333; min-width: 540px;}/* 感谢 @曾大杰 童鞋的建议 */
 .div_logo{float: left; height: 70px; width: auto; }
 .logo{ height: 70px; width: auto;}
 .nav{ float: right; }
